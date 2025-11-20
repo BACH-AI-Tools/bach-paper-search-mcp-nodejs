@@ -139,3 +139,18 @@ WARP.md
 # Academic search results cache
 cache/
 *.cache
+
+# Test files and coverage
+test/
+tests/
+__tests__/
+spec/
+specs/
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+.nyc_output/
+.coverage
+jest.config.*
+vitest.config.*
