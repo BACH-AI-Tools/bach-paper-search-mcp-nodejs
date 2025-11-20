@@ -1,5 +1,5 @@
 {
-  "name": "paper-search-mcp-nodejs",
+  "name": "bach-paper-search-mcp-nodejs",
   "version": "0.2.2",
   "description": "A Node.js MCP server for searching and downloading academic papers from multiple sources, including arXiv, PubMed, bioRxiv, Web of Science, and more.",
   "main": "dist/server.js",
