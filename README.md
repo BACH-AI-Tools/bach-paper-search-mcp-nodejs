@@ -4,6 +4,8 @@
 
 A Node.js Model Context Protocol (MCP) server for searching and downloading academic papers from multiple sources, including arXiv, Web of Science, PubMed, Google Scholar, Sci-Hub, ScienceDirect, Springer, Wiley, Scopus, and **13 academic platforms** in total.
 
+> **基于原项目**: 此项目基于 [paper-search-mcp-nodejs](https://github.com/Dianel555/paper-search-mcp-nodejs) 修改而来
+
 ![Node.js](https://img.shields.io/badge/node.js->=18.0.0-green.svg)
 ![TypeScript](https://img.shields.io/badge/typescript-^5.5.3-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -133,7 +135,7 @@ Add the following configuration to your Claude Desktop config file:
   "mcpServers": {
     "paper-search-nodejs": {
       "command": "npx",
-      "args": ["-y", "paper-search-mcp-nodejs"],
+      "args": ["-y", "bach-paper-search-mcp-nodejs"],
       "env": {
         "WOS_API_KEY": "your_web_of_science_api_key"
       }
